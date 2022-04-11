@@ -3,8 +3,11 @@
     margin: auto;
 }
 
-.header_top{
+.header_top, .footer_bootom{
     background-color: #2f4050;
+}
+.footer_top{
+    background-color: #3c546b;
 }
 .header_bottom{
     background-color: #00bb9c;
