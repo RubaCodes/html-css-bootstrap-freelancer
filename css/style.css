@@ -31,6 +31,18 @@ header a {
 #about {
     background-color: #00bb9c;
 }
+.divider{
+    font-size: 100px;
+}
+.divider_bar{
+    width: 200px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+}
+#contact .divider_bar, #portfolio .divider_bar{
+    background-color: black;
+}
 
 footer,
 header,
