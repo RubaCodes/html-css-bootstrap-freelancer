@@ -34,10 +34,6 @@ header a {
     background-color: #00bb9c;
 }
 
-.copyright {
-    text-align: center;
-}
-
 footer,
 header,
 #about {
@@ -59,10 +55,6 @@ header,
 }
 
 /* footer style */
-.footer_top {
-    text-align: center;
-}
-
 .footer_top h4 {
     text-transform: uppercase;
 }
