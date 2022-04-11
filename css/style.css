@@ -17,15 +17,6 @@ header a {
     color: white;
     text-transform: uppercase;
 }
-
-/* centratura dei link nav */
-header [class*="block"] {
-    text-align: center;
-}
-nav ul{
-    list-style: none;
-}
-
 .btn.btn-secondary.dropdown-toggle {
     background-color: transparent;
 }
