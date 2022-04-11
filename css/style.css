@@ -53,8 +53,3 @@ header,
     padding: 8px;
     display: block;
 }
-
-/* footer style */
-.footer_top h4 {
-    text-transform: uppercase;
-}
