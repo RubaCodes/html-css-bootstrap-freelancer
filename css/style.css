@@ -13,9 +13,13 @@
     background-color: #00bb9c;
     text-align: center;
 }
-.about_me{
+#about{
     background-color: #00bb9c;
 }
 .copyright{
     text-align: center;
+}
+
+footer,header,#about{
+    color: white;
 }

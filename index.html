@@ -13,9 +13,22 @@
 <body>
    <header>
        <div class="header_top">
-            <div class="container">
-                <h2>start bootstrap</h2>
-                <button></button>
+            <div class="container-fluid container-md container-xl">
+                <div class="row row-md row-xl">
+                <div class="col">
+                    <h2>start bootstrap</h2>
+                </div>
+                <div class="col-2 d-md-none">hamburger</div>
+                <div class="col-md-1 d-none d-md-block">
+                    <a href="#portfolio">portfolio</a>
+                </div>
+                <div class="col-md-1 d-none d-md-block">
+                    <a href="#about">about</a>
+                </div>
+                <div class="col-md-1 d-none d-md-block">
+                    <a href="#contact"> contact</a>
+                </div>
+                </div>
             </div>
         </div>  
         <div class="header_bottom py-5">
@@ -25,7 +38,7 @@
             <h3>graphic artist - web designer - illustrator</h3>
         </div>
    </header> 
-   <section class="portolio py-5">
+   <section id="portfolio" class=" py-5">
         <div class="container container-md container-xl">
             <h2>portfolio</h2>
             <hr>
@@ -51,7 +64,7 @@
             </div>
         </div>
    </section>
-   <section class="about_me py-5">
+   <section id="about" class=" py-5">
        <div class="container_custom">
            <h2>about me</h2>
            <hr>
@@ -61,7 +74,7 @@
            </div>
        </div>
    </section>
-   <section class="contact_me py-5">
+   <section id="contact" class="py-5">
        <div class="container_custom">
            <h2>contact me</h2>
            <hr>
