@@ -14,6 +14,10 @@ header a{
     color: white;
     text-transform: uppercase;
 }
+/* centratura dei link nav */
+header [class*="block"]{
+    text-align: center;
+}
 .btn.btn-secondary.dropdown-toggle{
     background-color: transparent;
 }
