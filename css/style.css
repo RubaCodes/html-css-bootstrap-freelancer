@@ -15,7 +15,6 @@ header img {
 header a {
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
 }
 .btn.btn-secondary.dropdown-toggle {
     background-color: transparent;
@@ -27,7 +26,6 @@ header a {
 
 .header_bottom {
     background-color: #00bb9c;
-    text-align: center;
 }
 
 #about {
