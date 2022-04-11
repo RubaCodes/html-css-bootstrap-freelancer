@@ -1,5 +1,5 @@
 .container_custom{
-    width: 55%;
+    width: 60%;
     margin: auto;
 }
 
@@ -34,6 +34,9 @@ header a{
 footer,header,#about{
     color: white;
 }
+#portfolio img{
+    border-radius: 10px;
+}
 
 .social_icons i{
     text-align: center;
@@ -44,6 +47,8 @@ footer,header,#about{
     padding: 8px;
     display: block;
 }
+
+/* footer style */
 .footer_top{
     text-align: center;
 }
