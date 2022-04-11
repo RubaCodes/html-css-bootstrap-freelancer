@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.header_top, .footer_bootom{
+.header_top, .footer_bottom{
     background-color: #2f4050;
 }
 .footer_top{
@@ -15,4 +15,7 @@
 }
 .about_me{
     background-color: #00bb9c;
+}
+.copyright{
+    text-align: center;
 }
