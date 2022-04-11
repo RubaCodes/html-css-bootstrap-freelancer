@@ -1,48 +1,60 @@
-.container_custom{
+.container_custom {
     width: 60%;
     margin: auto;
 }
 
-.header_top, .footer_bottom{
+.header_top,
+.footer_bottom {
     background-color: #2f4050;
 }
-header img{
+
+header img {
     width: 300px;
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
+
 /* centratura dei link nav */
-header [class*="block"]{
-    text-align: center;
-}
-.btn.btn-secondary.dropdown-toggle{
-    background-color: transparent;
-}
-.footer_top{
-    background-color: #3c546b;
-}
-.header_bottom{
-    background-color: #00bb9c;
-    text-align: center;
-}
-#about{
-    background-color: #00bb9c;
-}
-.copyright{
+header [class*="block"] {
     text-align: center;
 }
 
-footer,header,#about{
+.btn.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+}
+
+.footer_top {
+    background-color: #3c546b;
+}
+
+.header_bottom {
+    background-color: #00bb9c;
+    text-align: center;
+}
+
+#about {
+    background-color: #00bb9c;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer,
+header,
+#about {
     color: white;
 }
-#portfolio img{
+
+#portfolio img {
     border-radius: 10px;
 }
 
-.social_icons i{
+.social_icons i {
     text-align: center;
     height: 40px;
     width: 40px;
@@ -53,9 +65,10 @@ footer,header,#about{
 }
 
 /* footer style */
-.footer_top{
+.footer_top {
     text-align: center;
 }
-.footer_top h4{
+
+.footer_top h4 {
     text-transform: uppercase;
 }
