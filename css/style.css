@@ -1,10 +1,16 @@
 .container_custom{
-    width: 60%;
+    width: 55%;
     margin: auto;
 }
 
 .header_top, .footer_bottom{
     background-color: #2f4050;
+}
+header img{
+    width: 300px;
+}
+.btn.btn-secondary.dropdown-toggle{
+    background-color: transparent;
 }
 .footer_top{
     background-color: #3c546b;
