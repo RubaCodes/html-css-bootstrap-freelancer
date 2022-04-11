@@ -1,11 +1,14 @@
+.container_custom{
+    width: 60%;
+    margin: auto;
+}
+
 .header_top{
     background-color: #2f4050;
 }
 .header_bottom{
     background-color: #00bb9c;
     text-align: center;
-}
-.col-12.col-md-6.col-xl-4{
 }
 .about_me{
     background-color: #00bb9c;
