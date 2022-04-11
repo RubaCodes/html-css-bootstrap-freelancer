@@ -22,6 +22,9 @@ header a {
 header [class*="block"] {
     text-align: center;
 }
+nav ul{
+    list-style: none;
+}
 
 .btn.btn-secondary.dropdown-toggle {
     background-color: transparent;
