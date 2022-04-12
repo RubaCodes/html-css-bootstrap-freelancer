@@ -16,6 +16,7 @@ header a {
     text-decoration: none;
     color: white;
 }
+
 .btn.btn-secondary.dropdown-toggle {
     background-color: transparent;
 }
@@ -31,16 +32,20 @@ header a {
 #about {
     background-color: #00bb9c;
 }
-.divider{
+
+.divider {
     font-size: 50px;
 }
-.divider_bar{
+
+.divider_bar {
     width: 25%;
     height: 4px;
     background-color: white;
     border-radius: 10px;
 }
-#contact .divider_bar, #portfolio .divider_bar{
+
+#contact .divider_bar,
+#portfolio .divider_bar {
     background-color: black;
 }
 
