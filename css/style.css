@@ -25,7 +25,7 @@ header a {
     background-color: #3c546b;
 }
 
-.header_bottom, .btn-primary{
+.header_bottom{
     background-color: #00bb9c;
 }
 
@@ -75,6 +75,26 @@ header,
     border-bottom: 1px solid grey;
 }
 
-.btn-primary{
+/* overlay */
+.card{
+    border-radius: 10px;
+    background-color: #00bb9c;
     border: none;
+    display: relative;
+}
+
+.card img:hover{
+    opacity: 0.5;
+}
+.card .bi-plus-lg{
+    display: none;
+}
+.card:hover .bi-plus-lg{
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    display: block;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
 }
