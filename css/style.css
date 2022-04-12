@@ -25,7 +25,7 @@ header a {
     background-color: #3c546b;
 }
 
-.header_bottom{
+.header_bottom {
     background-color: #00bb9c;
 }
 
@@ -68,33 +68,38 @@ header,
     padding: 8px;
     display: block;
 }
+
 /* styling form */
-.form-group input, .form-group textarea{
+.form-group input,
+.form-group textarea {
     border: none;
     border-radius: 0px;
     border-bottom: 1px solid grey;
 }
 
 /* overlay */
-.card{
+.card {
     border-radius: 10px;
     background-color: #00bb9c;
     border: none;
     display: relative;
 }
 
-.card img:hover{
+.card img:hover {
     opacity: 0.5;
 }
-.card .bi-plus-lg{
-    display: none;
+
+.card .bi-plus-lg {
+    position: absolute;
+    opacity:0;
 }
-.card:hover .bi-plus-lg{
+
+.card:hover .bi-plus-lg {
     color: white;
     position: absolute;
     font-size: 80px;
-    display: block;
+    opacity: 1;
     top: 50%;
-    left: 50%; 
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
