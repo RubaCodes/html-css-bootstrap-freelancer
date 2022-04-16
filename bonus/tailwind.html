@@ -9,23 +9,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- cdn tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Bootstrap template ma e' tailwind</title>
+    <title>Bootstrap template ma e' tailwindcss kek</title>
 </head>
 
 <body>
     <!-- header -->
     <header class="py-4 bg-cyan-900 text-white">
-        <div class="container md:container md:mx-auto flex content-center">
-            <div class="columns-auto">
+        <div class="container mx-auto md:container-md  flex  items-center">
+            <div class="columns-auto ">
                 <h2 class="uppercase text-3xl font-bold">start bootstrap</h2>
             </div>
-            <div class="columns-auto grow flex justify-end my-auto">
-                <ul class="flex gap-10 content-center">
+            <div class="columns-auto flex  grow justify-end  visibile md:hidden">
+                <button class="space-y-2">
+                    <div class="w-8 h-0.5 bg-white"></div>
+                    <div class="w-8 h-0.5 bg-white"></div>
+                    <div class="w-8 h-0.5 bg-white"></div>
+                </button>
+            </div>
+            <div class="columns-auto grow  justify-end my-auto hidden md:flex">
+                <ul class="flex gap-10">
                     <li><a class="uppercase" href="#portfolio">portfolio</a></li>
                     <li><a class="uppercase" href="#about">about</a></li>
                     <li><a class="uppercase" href="#contact">contact</a></li>
                 </ul>
             </div>
+            
         </div>
     </header>
     <!-- hero -->
