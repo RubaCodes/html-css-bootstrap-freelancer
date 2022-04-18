@@ -79,27 +79,31 @@ header,
 
 /* overlay */
 .card {
-    border-radius: 10px;
-    background-color: #00bb9c;
-    border: none;
-    display: relative;
-}
 
-.card img:hover {
-    opacity: 0.5;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    
+    /* background-color: #00bb9c; */
 }
 
 .card .bi-plus-lg {
     position: absolute;
-    opacity:0;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+    display: flex;
+    align-items: center;justify-content: center;
 }
 
+
 .card:hover .bi-plus-lg {
+    background-color: rgba(0, 187, 156, 0.5); 
     color: white;
     position: absolute;
     font-size: 80px;
     opacity: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+
 }
