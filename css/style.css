@@ -76,6 +76,9 @@ header,
     border-radius: 0px;
     border-bottom: 1px solid grey;
 }
+form .btn{
+    background-color: #00bb9c;
+}
 
 /* overlay */
 .card {
