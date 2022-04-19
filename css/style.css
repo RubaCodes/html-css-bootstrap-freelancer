@@ -76,19 +76,17 @@ header,
     border-radius: 0px;
     border-bottom: 1px solid grey;
 }
-form .btn{
+
+form .btn {
     background-color: #00bb9c;
 }
 
 /* overlay */
 .card {
-
     border-radius: 10px;
     border: none;
     position: relative;
     overflow: hidden;
-    
-    /* background-color: #00bb9c; */
 }
 
 .card .bi-plus-lg {
@@ -96,12 +94,13 @@ form .btn{
     opacity: 0;
     transition: opacity 0.1s ease-in-out;
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .card:hover .bi-plus-lg {
-    background-color: rgba(0, 187, 156, 0.5); 
+    background-color: rgba(0, 187, 156, 0.5);
     color: white;
     position: absolute;
     font-size: 80px;
